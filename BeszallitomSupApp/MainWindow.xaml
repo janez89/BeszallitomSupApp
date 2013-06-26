@@ -1,0 +1,29 @@
+﻿<Window x:Class="BeszallitomSupApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Lekérdezés" HorizontalAlignment="Left" Margin="89,92,0,0" VerticalAlignment="Top" Width="213" Height="32" Click="Button_Click" />
+        <Label Content="Token" HorizontalAlignment="Left" Margin="25,19,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="89,19,0,0" TextWrapping="Wrap" Text="" Name="tbToken" VerticalAlignment="Top" Width="418"/>
+        <Label Content="Termék ID" HorizontalAlignment="Left" Margin="25,47,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="89,47,0,0" TextWrapping="Wrap" Text="" x:Name="tbId" VerticalAlignment="Top" Width="418"/>
+        <Label Content="Név" HorizontalAlignment="Left" Margin="25,142,0,0" VerticalAlignment="Top"/>
+        <Grid>
+            <Button Content="Lekérdezés" HorizontalAlignment="Left" Margin="89,92,0,0" VerticalAlignment="Top" Width="213" Height="32" Click="Button_Click" />
+            <Label Content="Termék ID" HorizontalAlignment="Left" Margin="25,47,0,0" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="89,145,0,0" TextWrapping="Wrap" Text="" x:Name="tbName" VerticalAlignment="Top" Width="418"/>
+            <Label Content="Név" HorizontalAlignment="Left" Margin="25,142,0,0" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="89,171,0,0" TextWrapping="Wrap" Text="" x:Name="tbSupplier" VerticalAlignment="Top" Width="418"/>
+            <Label Content="Beszállító" HorizontalAlignment="Left" Margin="25,168,0,0" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="89,197,0,0" TextWrapping="Wrap" Text="" x:Name="tbPrice" VerticalAlignment="Top" Width="94"/>
+            <Label Content="Egységár" HorizontalAlignment="Left" Margin="25,194,0,0" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="89,228,0,0" TextWrapping="Wrap" Text="" x:Name="tbSize" VerticalAlignment="Top" Width="94"/>
+            <Label Content="Kiszerelés" HorizontalAlignment="Left" Margin="25,225,0,0" VerticalAlignment="Top"/>
+
+
+        </Grid>
+
+
+    </Grid>
+</Window>
